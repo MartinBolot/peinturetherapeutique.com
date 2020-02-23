@@ -231,7 +231,7 @@ left: 5%;
 	border: solid 2px silver;
 	margin-bottom: 50px;
 	margin-right: 25%;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-left: 18%;
 	padding-top: 50px;
 	padding-right: 30px;
@@ -628,4 +628,13 @@ caption {
 .list_stage_2014,
 .list_stage_2014 li a{
     color: #7030A0;
+}
+.left_menu {
+  margin-top: 0px;
+}
+.light_blue {
+  color: #0070C0;
+}
+.fuchsia {
+  color: #E30A66;
 }
