@@ -1,0 +1,65 @@
+/* définition des couleurs disponibles*/
+/* rouge, bleu ciel, jaune, orange, violet, vert */
+
+/* personalisations */
+footer {
+  margin-top: 30px;
+}
+.accueil_quote {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #000000;
+}
+
+.text-pink {
+  color: #f964ae;
+}
+
+#main_nav {
+  font-size: 1.2rem;
+}
+
+#main_nav .navbar-nav {
+  width: 100%;
+}
+
+#main_nav .nav-item {
+  margin: 0rem 1rem;
+}
+
+.article_list_item h2 a {
+  color: #000000;
+}
+
+.article_list_item h2 a:hover {
+  color: #007bff;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+header.masthead {
+  padding-top: 12rem;
+}
+
+.table_agenda_city_header {
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+.agenda_caption {
+  text-align: center;
+  font-size: 1em;
+  font-style: italic;
+}
+#table_agenda td, #table_agenda th{
+  font-size: 1.3em;
+}
+
+h2 {
+  margin: 30px auto;
+}
+
+blockquote {
+  font-style: italic;
+}

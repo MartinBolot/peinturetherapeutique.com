@@ -171,37 +171,3 @@ header.masthead .bg-circle-4 {
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
-
-/* personalisations */
-.accueil_quote {
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-  color: #000000;
-}
-
-.text-pink {
-  color: #f964ae;
-}
-
-#main_nav {
-  font-size: 1.2rem;
-}
-
-#main_nav .navbar-nav {
-  width: 100%;
-}
-
-#main_nav .nav-item {
-  margin: 0rem 1rem;
-}
-
-.article_list_item h2 a {
-  color: #000000;
-}
-
-.article_list_item h2 a:hover {
-  color: #007bff;
-  text-decoration: none;
-  transition: 200ms;
-}
