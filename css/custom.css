@@ -1,5 +1,23 @@
 /* définition des couleurs disponibles*/
 /* rouge, bleu ciel, jaune, orange, violet, vert */
+.bleu-ciel {
+  color: deepskyblue;
+}
+.rouge {
+  color: crimson;
+}
+.jaune {
+  color: orange;
+}
+.violet {
+  color: mediumorchid;
+}
+.orange {
+  color: tomato;
+}
+.vert {
+  color: forestgreen;
+}
 
 /* personalisations */
 footer {
@@ -62,4 +80,12 @@ h2 {
 
 blockquote {
   font-style: italic;
+}
+
+.article_list_item p {
+  text-align: justify;
+}
+.article_list_item img {
+  margin: 20px 0;
+  max-width: 100%;
 }
