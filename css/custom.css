@@ -84,6 +84,9 @@ h4 {
 blockquote {
   font-style: italic;
 }
+blockquote footer {
+  margin: 0;
+}
 
 .article_list_item p {
   text-align: justify;
