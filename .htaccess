@@ -1,7 +1,17 @@
-SetEnv PHP_VER 5
-
-RewriteEngine On
-
-RewriteCond %{HTTP_HOST} !^www\.peinturetherapeutique\.com [NC]
-RewriteRule (.*) http://www.peinturetherapeutique.com/$1 [QSA,R=301,L]
+SetEnv PHP_VER 5
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^www\.peinturetherapeutique\.com [NC]
+RewriteRule (.*) http://www.peinturetherapeutique.com/$1 [QSA,R=301,L]
 ErrorDocument 404 http://www.peinturetherapeutique.com
+
+# MIME types
+AddType text/html .html .htm
+AddType text/plain .txt
+AddType text/css .css
+AddType image/gif .gif .GIF
+AddType image/jpeg .jpg .JPG
+AddType image/tiff .tiff .tif
+AddType application/javascript js jsonp
+AddType application/json json
