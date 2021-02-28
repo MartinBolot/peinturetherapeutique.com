@@ -1,5 +1,6 @@
 fonts/
 images/
-img/
 telecharger/
-wordpress/
+
+wordpress/wp-config.php
+wordpress/wp-content/themes/peinturetherapeutique/images
