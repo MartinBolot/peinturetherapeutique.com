@@ -64,6 +64,14 @@ header.masthead {
   padding-top: 5rem;
 }
 
+header.masthead .masthead-content .masthead-heading {
+  color : #3c47ec;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  color: #f04656;
+}
+
 .table_agenda_city_header {
   font-weight: bold;
   padding: 10px;

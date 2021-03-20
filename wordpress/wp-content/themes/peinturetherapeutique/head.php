@@ -1,6 +1,6 @@
 <?php
     $templateURI = get_template_directory_uri();
-    $siteTitle = get_bloginfo("name");
+    $siteTitle = is_home() && is_front_page() ? "Accueil" : wp_title('', false);
 ?>
   <head>
 
@@ -12,7 +12,7 @@
     <!-- /!\/!\/!\ attention à enlever lors de la mise en ligne -->
     <meta name="robots" content="noindex" />
 
-    <title><?php echo($siteTitle) ?></title>
+    <title>Aline Chauvet - <?php echo($siteTitle) ?></title>
 
     <!-- Custom fonts for this template -->
     <link
