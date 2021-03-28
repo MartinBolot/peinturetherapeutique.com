@@ -31,6 +31,7 @@
         <link href="' . $templateURI . '/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="' . $templateURI . '/css/one-page-wonder.css" rel="stylesheet"/>
         <link href="' . $templateURI . '/css/custom.css" rel="stylesheet"/>
+        <link href="' . $templateURI . '/css/wordpress.css" rel="stylesheet"/>
       ');
     ?>
 

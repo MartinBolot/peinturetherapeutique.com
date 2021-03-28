@@ -107,3 +107,7 @@ blockquote footer {
   margin: 20px 0;
   max-width: 100%;
 }
+
+.wp-block-image {
+  text-align: center;
+}
