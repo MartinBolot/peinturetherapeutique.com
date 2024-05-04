@@ -1,0 +1,101 @@
+/* définition des couleurs disponibles*/
+/* rouge, bleu ciel, jaune, orange, violet, vert */
+.bleu-ciel {
+  color: deepskyblue;
+}
+.rouge {
+  color: crimson;
+}
+.jaune {
+  color: orange;
+}
+.violet {
+  color: mediumorchid;
+}
+.orange {
+  color: tomato;
+}
+.vert {
+  color: forestgreen;
+}
+
+/* personalisations */
+footer {
+  font-size: 0.7em;
+  margin-top: 30px;
+  background-color: #666;
+}
+.accueil_quote {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #000000;
+}
+
+.text-pink {
+  color: #f964ae;
+}
+
+#main_nav {
+  font-size: 1.2rem;
+}
+
+#main_nav .navbar-nav {
+  width: 100%;
+}
+
+#main_nav .nav-item {
+  margin: 0rem 1rem;
+}
+
+.article_list_item h2 a {
+  color: #000000;
+}
+
+.article_list_item h2 a:hover {
+  color: #007bff;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+header.masthead {
+  background-image : url('../images/banieremosa2.png');
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+.table_agenda_city_header {
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+.agenda_caption {
+  text-align: center;
+  font-size: 1em;
+  font-style: italic;
+}
+#table_agenda td, #table_agenda th{
+  font-size: 1.3em;
+}
+
+h2 {
+  margin: 30px auto;
+}
+h4 {
+  color: #E30A66;
+}
+
+blockquote {
+  font-style: italic;
+}
+blockquote footer {
+  margin: 0;
+}
+
+.article_list_item p {
+  text-align: justify;
+}
+.article_list_item img {
+  margin: 20px 0;
+  max-width: 100%;
+}
