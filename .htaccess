@@ -2,6 +2,9 @@ SetEnv PHP_VER 5
 
 RewriteEngine On
 
+# redirect to wordpress folder
+RewriteRule ^$ /wordpress [L]
+
 # add "www"
 RewriteCond %{HTTP_HOST} !^www\.peinturetherapeutique\.com [NC]
 RewriteRule (.*) http://www.peinturetherapeutique.com/$1 [QSA,R=301,L]
